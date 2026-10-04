@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-label="h0se3n — frontend, визуальные инструменты, тёмный минимализм">
+  <title>h0se3n</title>
+  <defs>
+    <radialGradient id="glow" cx="0.18" cy="0" r="1.1">
+      <stop offset="0" stop-color="#8A7BFF" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#8A7BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8A7BFF"/>
+      <stop offset="1" stop-color="#B7AEFF"/>
+    </linearGradient>
+    <clipPath id="type">
+      <rect x="186" y="228" height="36" width="560">
+        <animate attributeName="width" values="0;0;560" keyTimes="0;0.15;1" dur="2.5s" begin="0s" fill="freeze" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.6 1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- фон -->
+  <rect width="1600" height="420" rx="28" fill="#0A0B0D"/>
+  <rect width="1600" height="420" rx="28" fill="url(#glow)">
+    <animate attributeName="opacity" values="1;0.45;1" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- crop marks -->
+  <path d="M30 54V30h24M1570 54V30h-24M30 366v24h24M1570 366v24h-24" stroke="#2C3038" stroke-width="2" fill="none"/>
+
+  <!-- знак -->
+  <rect x="72" y="118" width="92" height="92" rx="24" fill="url(#accentGrad)"/>
+  <text x="118" y="176" text-anchor="middle" font-family="'Cascadia Code', Consolas, 'Segoe UI', monospace" font-size="36" font-weight="800" fill="#0B0C10">&lt;/&gt;</text>
+
+  <!-- воркмарка -->
+  <text x="186" y="206" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="108" font-weight="800" letter-spacing="-2" fill="#E9EAEE" textLength="400" lengthAdjust="spacingAndGlyphs">h<tspan fill="#8A7BFF">0</tspan>se<tspan fill="#45D0A6">3</tspan>n</text>
+
+  <!-- печатающийся подзаголовок -->
+  <g clip-path="url(#type)">
+    <text x="188" y="254" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="28" font-weight="600" fill="#A2A6B0" textLength="550" lengthAdjust="spacingAndGlyphs">делаю фронтенд и визуальные инструменты</text>
+  </g>
+  <rect x="746" y="232" width="13" height="28" fill="#8A7BFF">
+    <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="1s" calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- чипы -->
+  <rect x="72" y="296" width="122" height="44" rx="22" fill="#101216" stroke="#20232A"/>
+  <circle cx="96" cy="318" r="5" fill="#8A7BFF"/>
+  <text x="110" y="325" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="600" fill="#A2A6B0">dark ui</text>
+
+  <rect x="208" y="296" width="146" height="44" rx="22" fill="#101216" stroke="#20232A"/>
+  <circle cx="232" cy="318" r="5" fill="#45D0A6"/>
+  <text x="246" y="325" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="600" fill="#A2A6B0">vanilla js</text>
+
+  <rect x="368" y="296" width="148" height="44" rx="22" fill="#101216" stroke="#20232A"/>
+  <circle cx="392" cy="318" r="5" fill="#E7B35C"/>
+  <text x="406" y="325" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="20" font-weight="600" fill="#A2A6B0">video tools</text>
+
+  <!-- подпись -->
+  <text x="72" y="392" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="19" font-weight="600" fill="#6B7078">собираю интерфейсы, которые приятно трогать</text>
+
+  <!-- окно редактора -->
+  <g transform="translate(880,80)">
+    <rect x="0" y="0" width="640" height="260" rx="16" fill="#101216" stroke="#20232A" stroke-width="1.5"/>
+    <circle cx="32" cy="26" r="7" fill="#8A7BFF"/>
+    <circle cx="58" cy="26" r="7" fill="#45D0A6"/>
+    <circle cx="84" cy="26" r="7" fill="#E7B35C"/>
+    <text x="112" y="31" font-family="'Cascadia Code', Consolas, monospace" font-size="15" font-weight="600" fill="#6B7078">kadr.js</text>
+    <path d="M0 48h640" stroke="#20232A"/>
+
+    <!-- код -->
+    <rect x="24"  y="68"  width="90"  height="12" rx="6" fill="#8A7BFF"/>
+    <rect x="126" y="68"  width="140" height="12" rx="6" fill="#A2A6B0"/>
+    <rect x="278" y="68"  width="70"  height="12" rx="6" fill="#2C3038"/>
+
+    <rect x="48"  y="94"  width="70"  height="12" rx="6" fill="#E7B35C"/>
+    <rect x="130" y="94"  width="180" height="12" rx="6" fill="#2C3038"/>
+    <rect x="322" y="94"  width="60"  height="12" rx="6" fill="#45D0A6"/>
+
+    <rect x="48"  y="120" width="120" height="12" rx="6" fill="#2C3038"/>
+    <rect x="180" y="120" width="90"  height="12" rx="6" fill="#8A7BFF"/>
+
+    <rect x="72"  y="146" width="150" height="12" rx="6" fill="#45D0A6"/>
+    <rect x="234" y="146" width="110" height="12" rx="6" fill="#2C3038"/>
+
+    <rect x="72"  y="172" width="100" height="12" rx="6" fill="#2C3038"/>
+    <rect x="184" y="172" width="80"  height="12" rx="6" fill="#E7B35C"/>
+
+    <rect x="48"  y="198" width="130" height="12" rx="6" fill="#2C3038"/>
+
+    <rect x="24"  y="224" width="60"  height="12" rx="6" fill="#2C3038"/>
+    <rect x="94"  y="221" width="10"  height="17" fill="#8A7BFF">
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="1.2s" calcMode="discrete" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- статус -->
+    <rect x="500" y="220" width="118" height="28" rx="14" fill="#16181D" stroke="#20232A"/>
+    <circle cx="516" cy="234" r="4" fill="#45D0A6"/>
+    <text x="527" y="239" font-family="'Cascadia Code', Consolas, monospace" font-size="13" font-weight="600" fill="#45D0A6">pushed</text>
+  </g>
+</svg>
