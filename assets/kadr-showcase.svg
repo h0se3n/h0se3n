@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" role="img" aria-label="kadr. — интерфейс студии: настройки, превью, очередь и таймлайн">
+  <title>kadr. — интерфейс студии</title>
+  <defs>
+    <linearGradient id="kag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8A7BFF"/>
+      <stop offset="1" stop-color="#B7AEFF"/>
+    </linearGradient>
+    <pattern id="kticks" width="24" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 0v9" stroke="#2C3038" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="560" rx="24" fill="#0A0B0D" stroke="#20232A" stroke-width="1.5"/>
+
+  <!-- топбар -->
+  <rect x="24" y="14" width="36" height="36" rx="10" fill="url(#kag)"/>
+  <path d="M38 24v16l14-8z" fill="#0B0C10"/>
+  <text x="70" y="41" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="800" letter-spacing="-1" fill="#E9EAEE">kadr<tspan fill="#8A7BFF">.</tspan></text>
+  <rect x="1056" y="16" width="200" height="32" rx="16" fill="#101216" stroke="#20232A"/>
+  <circle cx="1076" cy="32" r="4" fill="#45D0A6"/>
+  <text x="1088" y="37" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="600" fill="#A2A6B0">только фронтенд</text>
+
+  <!-- панель настроек -->
+  <rect x="24" y="76" width="280" height="276" rx="14" fill="#101216" stroke="#20232A"/>
+  <text x="44" y="106" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#6B7078">НАСТРОЙКИ</text>
+
+  <circle cx="48" cy="138" r="5" fill="#8A7BFF"/>
+  <rect x="62" y="131" width="120" height="10" rx="5" fill="#2C3038"/>
+  <rect x="44" y="166" width="216" height="8" rx="4" fill="#16181D"/>
+  <circle cx="104" cy="170" r="7" fill="#8A7BFF"/>
+
+  <circle cx="48" cy="218" r="5" fill="#45D0A6"/>
+  <rect x="62" y="211" width="140" height="10" rx="5" fill="#2C3038"/>
+  <rect x="44" y="240" width="44" height="24" rx="12" fill="#16181D" stroke="#45D0A6"/>
+  <circle cx="76" cy="252" r="8" fill="#45D0A6"/>
+
+  <circle cx="48" cy="298" r="5" fill="#E7B35C"/>
+  <rect x="62" y="291" width="150" height="10" rx="5" fill="#2C3038"/>
+  <rect x="44" y="318" width="26" height="20" rx="5" fill="#E7B35C"/>
+  <rect x="78" y="318" width="26" height="20" rx="5" fill="#E7B35C" fill-opacity="0.35"/>
+
+  <!-- превью -->
+  <rect x="328" y="76" width="600" height="276" rx="14" fill="#101216" stroke="#20232A"/>
+  <rect x="348" y="96" width="560" height="196" rx="10" fill="#0B0C10" stroke="#20232A"/>
+  <rect x="588" y="154" width="80" height="80" rx="20" fill="url(#kag)"/>
+  <path d="M620 174v40l34-20z" fill="#0B0C10"/>
+  <rect x="348" y="316" width="560" height="6" rx="3" fill="#16181D"/>
+  <rect x="348" y="316" width="0" height="6" rx="3" fill="#8A7BFF">
+    <animate attributeName="width" values="0;560" dur="14s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- очередь -->
+  <rect x="952" y="76" width="304" height="276" rx="14" fill="#101216" stroke="#20232A"/>
+  <text x="976" y="106" font-family="Nunito, 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#6B7078">ОЧЕРЕДЬ</text>
+
+  <rect x="976" y="124" width="256" height="60" rx="10" fill="#16181D"/>
+  <circle cx="998" cy="154" r="5" fill="#45D0A6"/>
+  <rect x="1014" y="140" width="120" height="10" rx="5" fill="#2C3038"/>
+  <rect x="1014" y="158" width="80" height="8" rx="4" fill="#2C3038" fill-opacity="0.6"/>
+
+  <rect x="976" y="196" width="256" height="60" rx="10" fill="#16181D"/>
+  <circle cx="998" cy="226" r="5" fill="#E7B35C">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="1014" y="212" width="140" height="10" rx="5" fill="#2C3038"/>
+  <rect x="1014" y="232" width="120" height="6" rx="3" fill="#0B0C10"/>
+  <rect x="1014" y="232" width="24" height="6" rx="3" fill="#E7B35C">
+    <animate attributeName="width" values="24;120" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="976" y="268" width="256" height="60" rx="10" fill="#16181D"/>
+  <circle cx="998" cy="298" r="5" fill="#6B7078"/>
+  <rect x="1014" y="284" width="100" height="10" rx="5" fill="#2C3038" fill-opacity="0.5"/>
+  <rect x="1014" y="302" width="70" height="8" rx="4" fill="#2C3038" fill-opacity="0.35"/>
+
+  <!-- таймлайн -->
+  <rect x="24" y="368" width="1232" height="168" rx="14" fill="#101216" stroke="#20232A"/>
+  <rect x="40" y="380" width="1200" height="10" fill="url(#kticks)"/>
+
+  <rect x="40" y="396" width="1200" height="48" rx="8" fill="#16181D" stroke="#20232A"/>
+  <rect x="48"   y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="108"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="168"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="228"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="288"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="348"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="408"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="468"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="528"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="588"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="648"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="708"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="768"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="828"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="888"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="948"  y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="1008" y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="1068" y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="1128" y="402" width="54" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+  <rect x="1188" y="402" width="46" height="36" rx="4" fill="#1D2027" stroke="#2C3038"/>
+
+  <rect x="40" y="452" width="1200" height="20" rx="6" fill="none" stroke="#20232A"/>
+  <rect x="48"   y="456" width="120" height="12" rx="4" fill="#8A7BFF" fill-opacity="0.3" stroke="#8A7BFF"/>
+  <rect x="180"  y="456" width="200" height="12" rx="4" fill="#8A7BFF" fill-opacity="0.3" stroke="#8A7BFF"/>
+  <rect x="396"  y="456" width="90"  height="12" rx="4" fill="#8A7BFF" fill-opacity="0.3" stroke="#8A7BFF"/>
+  <rect x="506"  y="456" width="160" height="12" rx="4" fill="#8A7BFF" fill-opacity="0.3" stroke="#8A7BFF"/>
+  <rect x="690"  y="456" width="110" height="12" rx="4" fill="#8A7BFF" fill-opacity="0.3" stroke="#8A7BFF"/>
+  <rect x="820"  y="456" width="180" height="12" rx="4" fill="#8A7BFF" fill-opacity="0.3" stroke="#8A7BFF"/>
+  <rect x="1020" y="456" width="130" height="12" rx="4" fill="#8A7BFF" fill-opacity="0.3" stroke="#8A7BFF"/>
+
+  <rect x="40" y="480" width="1200" height="20" rx="6" fill="none" stroke="#20232A"/>
+  <rect x="54"  y="484" width="60" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="124" y="484" width="84" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="218" y="484" width="66" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="294" y="484" width="92" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="396" y="484" width="62" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="468" y="484" width="80" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="558" y="484" width="66" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="634" y="484" width="88" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="732" y="484" width="60" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="802" y="484" width="84" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="896" y="484" width="70" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="976" y="484" width="88" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="1074" y="484" width="64" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+  <rect x="1148" y="484" width="72" height="10" rx="3" fill="#45D0A6" fill-opacity="0.85"/>
+
+  <rect x="40" y="508" width="1200" height="20" rx="6" fill="none" stroke="#20232A"/>
+  <rect x="60"   y="512" width="28" height="12" rx="4" fill="#E7B35C"/>
+  <rect x="340"  y="512" width="24" height="12" rx="4" fill="#E7B35C" fill-opacity="0.4"/>
+  <rect x="640"  y="512" width="28" height="12" rx="4" fill="#E7B35C"/>
+  <rect x="940"  y="512" width="24" height="12" rx="4" fill="#E7B35C" fill-opacity="0.4"/>
+  <rect x="1150" y="512" width="24" height="12" rx="4" fill="#E7B35C" fill-opacity="0.6"/>
+
+  <!-- IN / OUT -->
+  <rect x="180" y="392" width="416" height="140" fill="#8A7BFF" fill-opacity="0.06"/>
+  <path d="M180 392v140M596 392v140" stroke="#8A7BFF" stroke-width="2" opacity="0.7"/>
+
+  <!-- плейхед -->
+  <g>
+    <path d="M-9 374h18l-9 14z" fill="#E9EAEE"/>
+    <path d="M0 388v140" stroke="#E9EAEE" stroke-width="2"/>
+    <animateTransform attributeName="transform" type="translate" values="48 0;1228 0" dur="14s" repeatCount="indefinite"/>
+  </g>
+</svg>
